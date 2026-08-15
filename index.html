@@ -110,7 +110,7 @@
 
                     <button onclick="handleStartClick()" class="w-full btn-3d bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-black py-4 rounded-2xl text-lg flex items-center justify-center gap-2 border border-purple-400/30">
                         <i class="fa-solid fa-bolt-lightning text-yellow-300"></i>
-                        <span>بدء اختبار الصف السادس (للمتميزين)</span>
+                        <span>بدء اختبار الصف السادس</span>
                     </button>
                 </div>
             </div>
@@ -551,7 +551,7 @@
 
     <!-- SCRIPT ENGINE -->
     <script>
-        // رابط الشيت الخاص بالصف السادس (يمكنك تغييره هنا لو حابب تربطه بشيت منفصل)
+        // رابط الشيت الجديد الخاص بالصف السادس
         const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzhHVj_Jfi-KnBXXdX2jT3CgwGCpEKJOny6xXi-dkAD8yjKdyncBWhZgTMU7DzkTROBoA/exec";
         const NEW_BANNER_URL = "https://i.postimg.cc/Y2FdWsdv/ghlaf.jpg";
 
@@ -657,7 +657,7 @@
             { id: 'std_603', name: 'محمود إبراهيم', passcode: '5566', isBanned: false, banReason: '', banTime: '' }
         ];
 
-        // --- أسئلة الصف السادس المتاحة (10 صح وخطأ + 10 اختيار من متعدد للأوائل) ---
+        // --- الـ 20 سؤالاً الخاصة بالصف السادس (المطابقة بحرفها ودقتها) ---
         const DEFAULT_QUESTIONS = [
             // 1. صح أم خطأ (10 أسئلة)
             { id: 'q_tf_1', type: 'true_false', text: 'تتركز الكتلة المساحية الأكبر للوطن العربي في القارة التي تضم العدد الأقل من الدول العربية.', options: ['عبارة صحيحة', 'عبارة خاطئة'], correct: 0, points: 1, image: '' },
